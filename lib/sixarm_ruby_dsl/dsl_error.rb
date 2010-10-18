@@ -1,0 +1,2 @@
+class DSLError < StandardError
+end
