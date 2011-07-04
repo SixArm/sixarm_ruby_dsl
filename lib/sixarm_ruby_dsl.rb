@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm Ruby Gem: Domain Specific Language (DSL) classes
@@ -17,7 +19,7 @@ Example:
     ...continue...
   end
 
-=end 
+=end
 
 ['error','methods','reader'].map{|x|
   require File.dirname(__FILE__) + "/sixarm_ruby_dsl/#{x}.rb"
