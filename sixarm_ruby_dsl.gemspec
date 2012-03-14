@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   LIB_FILES           = ['error','method','reader']
   TEST_FILES          = []
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.rdoc", "VERSION"]
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"] + LIB_FILES.map{|c| "lib/sixarm_ruby_dsl/#{c}.rb"} 
   test_files          = ["test/#{s.name}_test.rb"] + TEST_FILES.map{|f| "test/sixarm_ruby_dsl/#{f}"}
 
