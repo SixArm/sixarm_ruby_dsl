@@ -1,4 +1,4 @@
-class DSLMethods
+class DSL::Methods
 
   attr_accessor :parent
 

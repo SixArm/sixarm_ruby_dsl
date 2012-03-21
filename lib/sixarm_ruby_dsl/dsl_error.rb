@@ -1,2 +1,2 @@
-class DSLError < StandardError
+class DSL::Error < StandardError
 end

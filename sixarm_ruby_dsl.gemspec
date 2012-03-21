@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_dsl"
-  s.summary           = "SixArm Ruby Gem: Domain Specific Language (DSL) clsases"
-  s.version           = "1.0.6"
+  s.summary           = "SixArm.com » Ruby » Domain Specific Language (DSL) classes"
+  s.version           = "1.1.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
@@ -13,17 +13,14 @@ Gem::Specification.new do |s|
   s.require_path      = 'lib'
   s.has_rdoc          = true
 
-!!!!!!!!!
-  LIB_FILES           = ['error','method','reader']
-  TEST_FILES          = []
+  SOURCES             = ['dsl_error','dsl_methods','dsl_reader']
+  TESTERS             = []
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
-  lib_files           = ["lib/#{s.name}.rb"] + LIB_FILES.map{|c| "lib/sixarm_ruby_dsl/#{c}.rb"} 
-  test_files          = ["test/#{s.name}_test.rb"] + TEST_FILES.map{|f| "test/sixarm_ruby_dsl/#{f}"}
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"} 
+  test_files          = ["test/#{s.name}_test.rb"] + TESTERS.map{|f| "test/#{s.name}_test/#{x}"}
 
   s.files             = top_files + lib_files + test_files
   s.test_files        = test_files
-
-  s.test_files        = CLASSES.map{|c| "test/sixarm_ruby_dsl/#{c}_test.rb"}
 
 end
