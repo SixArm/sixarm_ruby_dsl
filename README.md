@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Domain Specific Language (DSL) classes
 
-* Docs: <http://sixarm.com/sixarm_ruby_dsl/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_dsl/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_dsl>
 * Repo: <http://github.com/sixarm/sixarm_ruby_dsl>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
