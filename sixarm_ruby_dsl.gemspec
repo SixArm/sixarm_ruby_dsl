@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
   SOURCES             = ["dsl_error",'dsl_methods','dsl_reader']
   TESTERS             = []
 
-  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"}
   test_files          = ["test/#{s.name}_test.rb"] + TESTERS.map{|f| "test/#{s.name}_test/#{x}"}
 
