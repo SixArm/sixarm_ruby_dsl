@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   lib_files           = ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"}
   test_files          = ["test/#{s.name}_test.rb"] + TESTERS.map{|f| "test/#{s.name}_test/#{x}"}
 
-  s.files             = top_files + lib_files + test_files
+  s.files             = lib_files + test_files
   s.test_files        = test_files
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
