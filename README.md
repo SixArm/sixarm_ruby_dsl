@@ -1,4 +1,4 @@
-# Ruby » <br> Domain Specific Language (DSL) classes
+SixArm.com → Ruby → <br> Domain Specific Language (DSL) classes
 
 * Doc: <http://sixarm.com/sixarm_ruby_dsl/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_dsl>
