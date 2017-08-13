@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_dsl"
-  s.summary           = "SixArm.com » Ruby » DSL classes"
+  s.summary           = "SixArm.com → Ruby → DSL classes"
   s.description       = "Domain Specific Language (DSL) classes"
   s.version           = "1.1.1"
 
